@@ -1,0 +1,79 @@
+.neverFeelAlone {
+  margin: 0;
+  height: 85.1px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  max-width: 100%;
+}
+.landingPage,
+.slogan {
+  display: flex;
+  box-sizing: border-box;
+}
+.slogan {
+  width: 1367.3px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 169px 0 168px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 84px;
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-suez-one);
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #e0f7ff 30%, #fff);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 46px 72px 185px var(--padding-17xl);
+  gap: 56.4px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .slogan {
+    padding-left: var(--padding-65xl);
+    padding-right: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .neverFeelAlone {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .slogan {
+    padding-left: var(--padding-23xl);
+    padding-right: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .landingPage {
+    gap: var(--gap-9xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .neverFeelAlone {
+    font-size: 25px;
+  }
+  .slogan {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

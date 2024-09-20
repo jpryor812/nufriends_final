@@ -1,0 +1,223 @@
+.findFiveNew {
+  margin: 0;
+  height: 50.3px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.25px;
+  line-height: 50.3px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  backdrop-filter: blur(4px);
+  max-width: 100%;
+}
+.findFriends {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-60xl) 0 var(--padding-59xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.answerAFew {
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild,
+.questionnaire {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.questionnaire {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs-1);
+  font-size: var(--m3-headline-medium-size);
+  color: var(--color-black);
+}
+.frameChild {
+  height: 103px;
+  width: 408px;
+  position: relative;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gray);
+  border: 5px solid var(--color-deepskyblue);
+  display: none;
+}
+.findMyFriends {
+  margin: 0;
+  width: 351px;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 113%;
+  z-index: 1;
+}
+.findButton {
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.emojiWavingHandSign {
+  height: 69.8px;
+  width: 78.6px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.findFriendsButtonInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gray);
+  border: 5px solid var(--color-deepskyblue);
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-xs) 0;
+  row-gap: 20px;
+}
+.findFriendsButtonInner {
+  align-self: stretch;
+  padding: 0 var(--padding-204xl);
+}
+.worriedAboutThe {
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  display: inline-block;
+  font-family: var(--font-roboto-slab);
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.findFriendsButton,
+.findFriendsButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.findFriendsButton {
+  width: 854px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+}
+.findFriendsButtonWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  font-size: var(--m3-display-small-size);
+  color: var(--color-deepskyblue);
+}
+.fiveFriends {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-39xl-9);
+  max-width: 100%;
+}
+.callToAction {
+  width: 1367.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-57xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-38xl);
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--m3-display-small);
+}
+@media screen and (max-width: 1200px) {
+  .callToAction,
+  .findFriends {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .callToAction {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .findFiveNew {
+    font-size: var(--font-size-27xl);
+    line-height: 51px;
+  }
+  .findMyFriends {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .findFriendsButtonInner {
+    padding-left: var(--padding-92xl);
+    padding-right: var(--padding-92xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .fiveFriends {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .findFiveNew {
+    font-size: var(--font-size-15xl);
+    line-height: 38px;
+  }
+  .answerAFew,
+  .findMyFriends {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .findMyFriends {
+    line-height: 26px;
+  }
+  .findFriendsButtonInner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .worriedAboutThe {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .findFriendsButton {
+    gap: var(--gap-9xl);
+  }
+}

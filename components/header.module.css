@@ -1,0 +1,98 @@
+.nufriends {
+  margin: 0;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 294px;
+  height: 78px;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+.robotFinal311 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 286px;
+  max-height: 100%;
+  width: 75px;
+  overflow: hidden;
+  z-index: 1;
+}
+.nufriendsParent {
+  height: 100px;
+  width: 361px;
+  position: relative;
+  max-width: 100%;
+}
+.bustsInSilhouetteIcon {
+  width: 65px;
+  height: 67.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.busting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-5);
+}
+.emojiWavingHandSign {
+  height: 60px;
+  width: 75px;
+  position: relative;
+}
+.iconMail {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mailDuck {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-4);
+  box-sizing: border-box;
+}
+.wavingDucks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.ducks {
+  width: 279.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-35xl);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-suez-one);
+}
