@@ -110,7 +110,7 @@
   font-size: var(--font-size-5xl);
   line-height: 32px;
   display: inline-block;
-  font-family: var(--font-roboto-slab);
+  font-family: var(--font-roboto-flex);
   color: var(--color-black);
   flex-shrink: 0;
 }
