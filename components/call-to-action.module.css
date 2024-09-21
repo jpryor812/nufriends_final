@@ -21,9 +21,10 @@
   padding: 0 var(--padding-60xl) 0 var(--padding-59xl);
   box-sizing: border-box;
   max-width: 100%;
+  flex-grow: 1
 }
 .answerAFew {
-  flex: 1;
+  flex-grow: 1;
   position: relative;
   line-height: 36px;
   display: inline-block;
@@ -63,6 +64,7 @@
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
+  flex-grow: 1;
   max-width: 113%;
   z-index: 1;
 }
@@ -114,6 +116,7 @@
   font-family: var(--font-roboto-flex);
   color: var(--color-black);
   flex-shrink: 0;
+  flex-grow: 1;
 }
 .findFriendsButton,
 .findFriendsButtonWrapper {
@@ -127,6 +130,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-37xl);
+  flex-grow: 1;
 }
 .findFriendsButtonWrapper {
   align-self: stretch;
@@ -136,6 +140,7 @@
   box-sizing: border-box;
   font-size: var(--m3-display-small-size);
   color: var(--color-deepskyblue);
+  flex-grow: 1;
 }
 .fiveFriends {
   flex-grow: 1;
