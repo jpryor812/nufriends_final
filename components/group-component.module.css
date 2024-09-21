@@ -26,6 +26,7 @@
 .rectangleGroup {
   flex: 1;
   padding: 0 var(--padding-309xl);
+  flex-grow: 1;
 }
 .rectangleParent {
   align-self: stretch;
@@ -34,6 +35,7 @@
   font-size: var(--m3-display-small-size);
   color: var(--color-deepskyblue);
   font-family: var(--m3-display-small);
+  flex-grow: 1;
 }
 @media screen and (max-width: 1200px) {
   .rectangleGroup,
