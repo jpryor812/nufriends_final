@@ -27,11 +27,13 @@
   padding: var(--padding-11xs) 0 0;
   box-sizing: border-box;
   margin-left: -7.3px;
+  flex-grow: 1;
 }
 .nufriendsParent {
-  width: 359.2px;
+  max-width: 359.2px;
   flex-direction: row;
-  max-width: 100%;
+  width: 100%;
+  flex-grow: 1;
 }
 .handEmojiIcon {
   height: 55px;
@@ -66,10 +68,12 @@
   align-self: stretch;
   justify-content: flex-start;
   flex-shrink: 0;
+  flex-grow: 1;
 }
 .mailEmojiWrapper {
   justify-content: flex-end;
   padding: 0 0 var(--padding-10xs-7);
+  flex-grow: 1;
 }
 .frameGroup {
   flex: 1;
@@ -78,6 +82,7 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: var(--gap-xl);
+  flex-grow: 1;
 }
 .frameWrapper,
 .handEmojiParent {
@@ -91,20 +96,21 @@
   position: relative;
 }
 .frameWrapper {
-  width: 249.5px;
+  max-width: 249.5px;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 0 var(--padding-6xl-8);
   box-sizing: border-box;
 }
 .frameParent {
-  width: 1246.9px;
+  max-width: 1246.9px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   gap: var(--gap-xl);
-  max-width: 100%;
+  width: 100%;
   text-align: center;
   font-size: var(--font-size-35xl);
   color: var(--color-cornflowerblue-100);
