@@ -99,5 +99,5 @@
   font-size: var(--font-size-35xl);
   color: var(--color-cornflowerblue-100);
   font-family: var(--font-suez-one);
-  flex-grow 1;
+  flex-grow: 1;
 }
