@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Suez+One:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:ital,wght@1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap");
 body {
   margin: 0;
   line-height: normal;
 }
 :root {
   /* fonts */
-  --font-roboto-slab: "Roboto Slab";
+  --font-roboto-flex: "Roboto Flex";
   --m3-display-small: Roboto;
   --font-suez-one: "Suez One";
+  --font-roboto-slab: "Roboto Slab";
+  --font-inter: Inter;
 
   /* font sizes */
   --font-size-5xl: 24px;
@@ -21,14 +25,19 @@ body {
   --font-size-38xl: 57px;
   --font-size-15xl: 34px;
   --font-size-27xl: 46px;
+  --font-size-65xl: 84px;
+  --font-size-6xl: 25px;
+  --font-size-23xl: 42px;
   --font-size-35xl: 54px;
 
   /* Colors */
   --color-black: #000;
   --color-gray: #f8fcff;
+  --color-gray-100: #818181;
   --color-deepskyblue: #42ade2;
   --color-cornflowerblue-100: #119be9;
   --color-cornflowerblue-200: rgba(17, 155, 232, 0.7);
+  --color-gainsboro: rgba(217, 217, 217, 0);
 
   /* Gaps */
   --gap-9xl: 28px;
@@ -58,6 +67,23 @@ body {
   --padding-6xs: 7px;
   --padding-11xs-4: 1.4px;
   --padding-10xs-5: 2.5px;
+  --padding-12xl: 31px;
+  --padding-84xl: 103px;
+  --padding-91xl: 110px;
+  --padding-36xl: 55px;
+  --padding-32xl: 51px;
+  --padding-8xl: 27px;
+  --padding-6xl: 25px;
+  --padding-309xl: 328px;
+  --padding-145xl: 164px;
+  --padding-63xl: 82px;
+  --padding-base: 16px;
+  --padding-lgi: 19px;
+  --padding-mid-2: 17.2px;
+  --padding-sm-8: 13.8px;
+  --padding-6xl-8: 25.8px;
+  --padding-10xs-7: 2.7px;
+  --padding-11xs: 2px;
 
   /* Border radiuses */
   --br-26xl: 45px;

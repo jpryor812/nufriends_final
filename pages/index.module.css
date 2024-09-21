@@ -1,79 +1,145 @@
-.neverFeelAlone {
-  margin: 0;
-  height: 85.1px;
-  flex: 1;
+.rootChild {
+  align-self: stretch;
+  height: 12px;
   position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
-  max-width: 100%;
+  background-color: var(--color-gainsboro);
 }
-.landingPage,
-.slogan {
-  display: flex;
-  box-sizing: border-box;
-}
-.slogan {
-  width: 1367.3px;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 169px 0 168px;
-  max-width: 100%;
-  text-align: center;
-  font-size: 84px;
-  color: var(--color-cornflowerblue-100);
+.neverFeelAlone {
+  font-size: var(--font-size-65xl);
+  line-height: 130.48%;
   font-family: var(--font-suez-one);
+  color: var(--color-cornflowerblue-100);
+  text-align: center;
 }
-.landingPage {
+.findFiveFriends,
+.neverFeelAlone,
+.rootInner {
+  align-self: stretch;
+  position: relative;
+}
+.findFiveFriends {
+  font-size: 62px;
+  font-family: var(--font-suez-one);
+  color: var(--color-deepskyblue);
+  text-align: center;
+}
+.rootInner {
+  height: 33px;
+  background-color: var(--color-gainsboro);
+}
+.answerAFew {
+  margin: 0;
+}
+.answerAFewContainer,
+.rectangleDiv {
+  align-self: stretch;
+  position: relative;
+}
+.answerAFewContainer {
+  line-height: 36px;
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+}
+.rectangleDiv {
+  height: 26px;
+  background-color: var(--color-gainsboro);
+}
+.seeHowIt,
+.worriedAboutTheContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.worriedAboutTheContainer {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.seeHowIt {
+  font-weight: 800;
+}
+.seeHowItWorksWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-1) 0 0;
+}
+.groupIcon {
+  height: 47.2px;
+  width: 39.7px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  width: 294.7px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameDiv,
+.frameParent,
+.root {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-3xl);
+  color: #7d7d7d;
+  font-family: var(--font-roboto-slab);
+}
+.root {
   width: 100%;
   position: relative;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(180deg, #e0f7ff 30%, #fff);
-  overflow: hidden;
+  background: linear-gradient(180deg, #e2f8ff, #fff);
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
-  padding: 46px 72px 185px var(--padding-17xl);
-  gap: 56.4px;
+  padding: 30px 62px 96.8px 63px;
+  box-sizing: border-box;
+  gap: 15px;
   line-height: normal;
   letter-spacing: normal;
-}
-@media screen and (max-width: 1200px) {
-  .slogan {
-    padding-left: var(--padding-65xl);
-    padding-right: var(--padding-65xl);
-    box-sizing: border-box;
-  }
+  text-align: center;
+  font-size: var(--m3-headline-medium-size);
+  color: var(--color-gray-100);
+  font-family: var(--m3-display-small);
 }
 @media screen and (max-width: 1050px) {
   .neverFeelAlone {
-    font-size: 42px;
+    font-size: var(--font-size-23xl);
+    line-height: 66px;
+  }
+  .findFiveFriends {
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 750px) {
-  .slogan {
-    padding-left: var(--padding-23xl);
-    padding-right: var(--padding-23xl);
-    box-sizing: border-box;
-  }
-  .landingPage {
-    gap: var(--gap-9xl);
-    padding-right: var(--padding-17xl);
+  .root {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .neverFeelAlone {
-    font-size: 25px;
+    font-size: var(--font-size-6xl);
+    line-height: 44px;
   }
-  .slogan {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
+  .findFiveFriends {
+    font-size: 37px;
+  }
+  .answerAFewContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .worriedAboutTheContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .seeHowIt {
+    font-size: 18px;
+    line-height: 26px;
   }
 }
