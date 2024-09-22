@@ -7,6 +7,7 @@ export type FindMyFriendsButtonType = {
   findMyFriendsMargin?: string;
   findMyFriendsWidth?: string;
   findMyFriendsFontWeight?: string;
+  emojiWavingHandSign?: string; // Add the missing prop
   emojiWavingHandSignHeight?: string;
   emojiWavingHandSignWidth?: string;
 };
@@ -17,6 +18,7 @@ const FindMyFriendsButton: NextPage<FindMyFriendsButtonType> = ({
   findMyFriendsMargin,
   findMyFriendsWidth,
   findMyFriendsFontWeight,
+  emojiWavingHandSign,
   emojiWavingHandSignHeight,
   emojiWavingHandSignWidth,
 }) => {
@@ -44,7 +46,7 @@ const FindMyFriendsButton: NextPage<FindMyFriendsButtonType> = ({
         className={styles.emojiWavingHandSign}
         loading="lazy"
         alt=""
-        src="/-emoji-waving-hand-sign1.svg"
+        src={emojiWavingHandSign || "/-emoji-waving-hand-sign1.svg"} // Use the passed prop
         style={{
           height: emojiWavingHandSignHeight,
           width: emojiWavingHandSignWidth,
