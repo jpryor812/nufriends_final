@@ -1,0 +1,143 @@
+.userIconsChild {
+  width: 40px;
+  height: 35px;
+  position: relative;
+}
+.userIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs-2) var(--padding-3xs);
+}
+.handEmojiIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.handEmoji {
+  height: 35px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.envelopeIcon,
+.mailEmoji {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mailEmoji {
+  width: 25.7px;
+  height: 30px;
+  z-index: 1;
+}
+.envelopeParent {
+  height: 30px;
+  width: 40px;
+  position: relative;
+}
+.rightHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-920xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.nufriends {
+  flex: 1;
+  position: relative;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+.robotHeaderIcon {
+  height: 100%;
+  width: 16.79%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 25.73%;
+  bottom: 0;
+  left: 57.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.brandName,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.brandName {
+  width: 262px;
+  margin: 0 !important;
+  position: absolute;
+  top: 45.5px;
+  left: 0;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.header {
+  align-self: stretch;
+  padding: var(--padding-22xl-2) 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-759xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-suez-one);
+}
+@media screen and (max-width: 1125px) {
+  .rightHeader {
+    padding-left: var(--padding-450xl);
+    box-sizing: border-box;
+  }
+  .header {
+    gap: var(--gap-370xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rightHeader {
+    padding-left: var(--padding-215xl);
+    box-sizing: border-box;
+  }
+  .header {
+    gap: var(--gap-175xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rightHeader {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .header {
+    gap: var(--gap-78xl);
+  }
+}
