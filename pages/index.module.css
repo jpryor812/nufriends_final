@@ -55,6 +55,14 @@
   	position: relative;
   	height: 30px;
 }
+.mailEmojiFrame {
+  	width: 40px;
+  	height: 30px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
 .rightHeader {
   	flex: 1;
   	display: flex;
@@ -65,13 +73,15 @@
   	z-index: 0;
 }
 .nufriends {
-  	flex: 1;
+  	width: 262px;
   	position: relative;
   	display: -webkit-inline-box;
+  	align-items: center;
   	overflow: hidden;
   	text-overflow: ellipsis;
   	-webkit-line-clamp: 2;
   	-webkit-box-orient: vertical;
+  	flex-shrink: 0;
   	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
   	z-index: 0;
 }
@@ -90,14 +100,13 @@
   	z-index: 1;
 }
 .nufriendsHeaderFrame {
-  	width: 262px;
   	margin: 0 !important;
   	position: absolute;
-  	top: 45.5px;
+  	top: 25px;
   	left: 0px;
   	display: flex;
   	flex-direction: row;
-  	align-items: center;
+  	align-items: flex-start;
   	justify-content: flex-start;
   	gap: 10px;
   	z-index: 1;
@@ -161,15 +170,15 @@
   	top: 0px;
   	left: 0px;
   	background-color: rgba(217, 217, 217, 0);
-  	width: 1327px;
+  	width: 968px;
   	height: 103px;
 }
 .findMyFriendsButtonFrameItem {
   	position: absolute;
   	top: 0px;
-  	left: 111.31px;
+  	left: 81.2px;
   	background-color: rgba(217, 217, 217, 0);
-  	width: 1110.9px;
+  	width: 810.3px;
   	height: 103px;
 }
 .findMyFriendsButtonChild {
@@ -188,11 +197,11 @@
 .handEmojiOnButton {
   	position: absolute;
   	height: 67.73%;
-  	width: 19.25%;
+  	width: 19.26%;
   	top: 15.54%;
-  	right: 4.52%;
+  	right: 4.53%;
   	bottom: 16.73%;
-  	left: 76.23%;
+  	left: 76.22%;
   	max-width: 100%;
   	overflow: hidden;
   	max-height: 100%;
@@ -200,10 +209,10 @@
 .findMyFriends {
   	position: absolute;
   	height: 39.84%;
-  	width: 85.8%;
+  	width: 85.76%;
   	top: 30.11%;
   	left: 0%;
-  	line-height: 44px;
+  	line-height: 40px;
   	display: flex;
   	align-items: center;
   	justify-content: center;
@@ -211,15 +220,14 @@
 .findMyFriendsButton {
   	position: absolute;
   	top: 0px;
-  	left: 443.06px;
-  	width: 469.7px;
+  	left: 323.2px;
+  	width: 342.7px;
   	height: 109.7px;
 }
 .findMyFriendsButtonFrame {
   	align-self: stretch;
   	position: relative;
   	height: 109.7px;
-  	font-size: 36px;
   	color: #42ade2;
   	font-family: Roboto;
 }
@@ -265,9 +273,9 @@
   	font-family: 'Roboto Slab';
 }
 .landingPageFinal {
-  	width: 100%;
   	position: relative;
   	background: linear-gradient(180deg, #e2f8ff, #fff);
+  	width: 100%;
   	display: flex;
   	flex-direction: column;
   	align-items: center;
