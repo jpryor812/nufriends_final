@@ -31,7 +31,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               className={styles.frameChild}
               loading="lazy"
               alt=""
-              src="/group-105.svg"
+              src="/Duo emoji.svg"
             />
             <div className={styles.mailEmojiWrapper}>
               <div className={styles.mailEmoji}>
