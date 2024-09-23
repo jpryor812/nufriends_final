@@ -14,7 +14,7 @@ const Header1: NextPage<Header1Type> = ({ className = "" }) => {
             className={styles.userIconsChild}
             loading="lazy"
             alt=""
-            src="/group-1051.svg"
+            src="/Duo emoji.svg"
           />
         </div>
         <div className={styles.handEmoji}>
