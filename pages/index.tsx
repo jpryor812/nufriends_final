@@ -13,9 +13,11 @@ const LandingPageFinal:NextPage = () => {
           					<div className={styles.handEmojiHeader}>
             						<img className={styles.handEmojiIcon} alt="" src="hand emoji.svg" />
           					</div>
-          					<div className={styles.mailEmoji}>
-            						<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-            						<div className={styles.mailEmoji1} />
+          					<div className={styles.mailEmojiFrame}>
+            						<div className={styles.mailEmoji}>
+              							<img className={styles.vectorIcon} alt="" src="Vector.svg" />
+              							<div className={styles.mailEmoji1} />
+            						</div>
           					</div>
         				</div>
         				<div className={styles.nufriendsHeaderFrame}>
