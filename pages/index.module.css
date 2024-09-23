@@ -1,9 +1,9 @@
-.frameChild {
+.duoEmojiIcon {
   	width: 40px;
   	position: relative;
   	height: 35px;
 }
-.rightHeaderInner {
+.duoEmojiFrame {
   	width: 61px;
   	height: 51.4px;
   	display: flex;
@@ -25,7 +25,7 @@
   	max-height: 100%;
   	z-index: 0;
 }
-.handEmoji {
+.handEmojiHeader {
   	width: 40px;
   	height: 35px;
   	display: flex;
@@ -43,14 +43,14 @@
   	width: 40px;
   	height: 30px;
 }
-.mailEmoji {
+.mailEmoji1 {
   	position: absolute;
   	top: 0px;
   	left: 0px;
   	width: 25.7px;
   	height: 30px;
 }
-.vectorParent {
+.mailEmoji {
   	width: 40px;
   	position: relative;
   	height: 30px;
@@ -75,13 +75,13 @@
   	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
   	z-index: 0;
 }
-.robotHeaderIcon {
-  	width: 16.79%;
+.robotHeaderImage {
+  	width: 15.27%;
   	position: absolute;
   	margin: 0 !important;
   	height: 100%;
   	top: 0%;
-  	right: 25.74%;
+  	right: 27.27%;
   	bottom: 0%;
   	left: 57.46%;
   	max-width: 100%;
@@ -89,7 +89,7 @@
   	max-height: 100%;
   	z-index: 1;
 }
-.nufriendsParent {
+.nufriendsHeaderFrame {
   	width: 262px;
   	margin: 0 !important;
   	position: absolute;
@@ -104,7 +104,7 @@
 }
 .header {
   	align-self: stretch;
-  	height: 133.8px;
+  	height: 93px;
   	display: flex;
   	flex-direction: row;
   	align-items: center;
@@ -116,26 +116,26 @@
 .neverFeelAlone {
   	align-self: stretch;
   	position: relative;
-  	font-size: 84px;
+  	font-size: 72px;
   	line-height: 130.48%;
 }
 .landingPageFinalChild {
   	align-self: stretch;
   	position: relative;
   	background-color: rgba(217, 217, 217, 0);
-  	height: 12px;
+  	height: 1px;
 }
 .findFiveFriends {
   	align-self: stretch;
   	position: relative;
-  	font-size: 62px;
+  	font-size: 54px;
   	color: #42ade2;
 }
 .landingPageFinalItem {
   	align-self: stretch;
   	position: relative;
   	background-color: rgba(217, 217, 217, 0);
-  	height: 33px;
+  	height: 10px;
 }
 .answerAFew {
   	margin: 0;
@@ -143,8 +143,8 @@
 .answerAFewContainer {
   	align-self: stretch;
   	position: relative;
-  	font-size: 28px;
-  	line-height: 36px;
+  	font-size: 24px;
+  	line-height: 32px;
   	font-weight: 700;
   	font-family: Roboto;
   	color: #818181;
@@ -156,20 +156,20 @@
   	background-color: rgba(217, 217, 217, 0);
   	height: 26px;
 }
-.groupChild {
+.findMyFriendsButtonFrameChild {
   	position: absolute;
   	top: 0px;
   	left: 0px;
   	background-color: rgba(217, 217, 217, 0);
-  	width: 1130px;
+  	width: 1327px;
   	height: 103px;
 }
-.groupItem {
+.findMyFriendsButtonFrameItem {
   	position: absolute;
   	top: 0px;
-  	left: 94.79px;
+  	left: 111.31px;
   	background-color: rgba(217, 217, 217, 0);
-  	width: 946px;
+  	width: 1110.9px;
   	height: 103px;
 }
 .findMyFriendsButtonChild {
@@ -185,7 +185,7 @@
   	border: 3px solid #42ade2;
   	box-sizing: border-box;
 }
-.emojiWavingHandSign {
+.handEmojiOnButton {
   	position: absolute;
   	height: 67.73%;
   	width: 19.25%;
@@ -200,7 +200,7 @@
 .findMyFriends {
   	position: absolute;
   	height: 39.84%;
-  	width: 85.78%;
+  	width: 85.8%;
   	top: 30.11%;
   	left: 0%;
   	line-height: 44px;
@@ -211,11 +211,11 @@
 .findMyFriendsButton {
   	position: absolute;
   	top: 0px;
-  	left: 377.29px;
-  	width: 400px;
+  	left: 443.06px;
+  	width: 469.7px;
   	height: 109.7px;
 }
-.rectangleParent {
+.findMyFriendsButtonFrame {
   	align-self: stretch;
   	position: relative;
   	height: 109.7px;
@@ -226,8 +226,9 @@
 .worriedAboutTheContainer {
   	align-self: stretch;
   	position: relative;
-  	font-size: 24px;
+  	font-size: 20px;
   	line-height: 32px;
+  	font-weight: 700;
   	font-family: Inter;
   	color: #818181;
 }
@@ -248,7 +249,7 @@
   	height: 37px;
   	flex-shrink: 0;
 }
-.groupIcon {
+.pointDownEmoji {
   	width: 39.7px;
   	position: relative;
   	height: 47.2px;
@@ -264,9 +265,9 @@
   	font-family: 'Roboto Slab';
 }
 .landingPageFinal {
+  	width: 100%;
   	position: relative;
   	background: linear-gradient(180deg, #e2f8ff, #fff);
-  	width: 100%;
   	display: flex;
   	flex-direction: column;
   	align-items: center;
