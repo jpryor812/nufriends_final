@@ -7,20 +7,20 @@ const LandingPageFinal:NextPage = () => {
     		<div className={styles.landingPageFinal}>
       			<div className={styles.header}>
         				<div className={styles.rightHeader}>
-          					<div className={styles.rightHeaderInner}>
-            						<img className={styles.frameChild} alt="" src="Group 105.svg" />
+          					<div className={styles.duoEmojiFrame}>
+            						<img className={styles.duoEmojiIcon} alt="" src="Duo emoji.svg" />
           					</div>
-          					<div className={styles.handEmoji}>
+          					<div className={styles.handEmojiHeader}>
             						<img className={styles.handEmojiIcon} alt="" src="hand emoji.svg" />
           					</div>
-          					<div className={styles.vectorParent}>
+          					<div className={styles.mailEmoji}>
             						<img className={styles.vectorIcon} alt="" src="Vector.svg" />
-            						<div className={styles.mailEmoji} />
+            						<div className={styles.mailEmoji1} />
           					</div>
         				</div>
-        				<div className={styles.nufriendsParent}>
+        				<div className={styles.nufriendsHeaderFrame}>
           					<div className={styles.nufriends}>nufriends</div>
-          					<img className={styles.robotHeaderIcon} alt="" src="robot header.svg" />
+          					<img className={styles.robotHeaderImage} alt="" src="robot header image.svg" />
         				</div>
       			</div>
       			<div className={styles.neverFeelAlone}>Never Feel Alone Again</div>
@@ -32,24 +32,24 @@ const LandingPageFinal:NextPage = () => {
         				<p className={styles.answerAFew}>feel you’ll build a connection with!</p>
       			</i>
       			<div className={styles.landingPageFinalInner} />
-      			<div className={styles.rectangleParent}>
-        				<div className={styles.groupChild} />
-        				<div className={styles.groupItem} />
+      			<div className={styles.findMyFriendsButtonFrame}>
+        				<div className={styles.findMyFriendsButtonFrameChild} />
+        				<div className={styles.findMyFriendsButtonFrameItem} />
         				<div className={styles.findMyFriendsButton}>
           					<div className={styles.findMyFriendsButtonChild} />
-          					<img className={styles.emojiWavingHandSign} alt="" src={`🦆 emoji "waving hand sign".svg`} />
+          					<img className={styles.handEmojiOnButton} alt="" src="hand emoji on button.svg" />
           					<b className={styles.findMyFriends}>Find My Friends</b>
         				</div>
       			</div>
       			<div className={styles.landingPageFinalInner} />
       			<i className={styles.worriedAboutTheContainer}>
         				<p className={styles.answerAFew}>{`Worried about the cold start to the conversation? Your AI Companion, who knows you best, `}</p>
-        				<p className={styles.answerAFew}>{`will facilitate that first conversation for you! `}</p>
+        				<p className={styles.answerAFew}>will facilitate that first conversation for you and be with you every step of the way!</p>
       			</i>
       			<div className={styles.landingPageFinalChild1} />
       			<div className={styles.seeHowItWorksParent}>
         				<div className={styles.seeHowIt}>{`See how it works! `}</div>
-        				<img className={styles.groupIcon} alt="" src="Group.svg" />
+        				<img className={styles.pointDownEmoji} alt="" src="point down emoji.svg" />
       			</div>
     		</div>);
 };
